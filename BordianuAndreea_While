@@ -1,0 +1,52 @@
+//exercitiul 1
+public class While1{
+public static void main(String args[]){
+double i=100;
+double sum=0;
+while(i>=2) {
+sum+=i;
+sum=Math.sqrt(sum);
+i-=2;
+}
+System.out.println(sum);
+}
+}
+
+//exercitiul 2
+import java.util.Scanner;
+public class While2{
+public static void main(String args[]){ 
+Scanner sc=new Scanner(System.in);
+System.out.println("Introduceti numarul");
+int i= sc.nextInt();
+sc.close();
+int rest; int sum=0;
+while(i !=0){
+rest=i%10;
+sum+=rest;
+i=i/10;
+}
+System.out.print("Suma ciferlor este"+sum);
+}
+}
+
+//exercitiul 3
+import java.util.Scanner;
+public class While3{
+public static void main(String args[]){
+Scanner.sc= new Scanner(System.in);
+System.out.println("Introduceti numarul de la tastatura");
+int i=sc.next.Int();
+sc.close();
+while(i>=10){
+int rest=0;
+int sum=0;
+while(i!=0){
+rest=i%10;
+sum+=rest;
+i=i/10;
+}
+}
+System.out.println("Suma cifrelor este"+ sum);
+}
+}
